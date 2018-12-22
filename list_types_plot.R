@@ -1,6 +1,6 @@
 # list_types_plot.R
 # Yimeng Li
-# This script contains a function that obtains two figures showing the proportions of different types of respondents
+# This script contains a function that obtains two figures showing the estimated proportions of different types of respondents
 # (1) under the no design effect assumption
 # (2) under the no design effect assumption and the relaxed liars assumption with a maximal number of liars
 # conditional on the number of control items answered affirmatively.
@@ -10,7 +10,7 @@
 # function list_types_plot
 # Inputs:
 # (1) output.list_relaxed_liars: Output from function list_relax_liars
-# Outputs:
+# Outputs: A list containing estimates for
 # (1) Proportions of truthtellers and nonsupporters/liars,
 #       conditional on the number of control items answered affirmatively
 # (2) Proportions of truthtellers, max liars, and min nonsupporters,

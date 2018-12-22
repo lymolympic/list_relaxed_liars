@@ -1,6 +1,6 @@
 # list_relaxed_liars.R
 # Yimeng Li
-# This script contains a function that obtains the proposed identified set and its confidence set
+# This script contains a function that obtains the proposed bounds estimates and the confidence set
 #   for the prevalence of a sensitive behavior or attitude
 #   under the relaxed liars assumption
 #   described in "Relaxing the No Liars Assumption in List Experiment Analyses".
@@ -29,7 +29,7 @@
 # (8) warning (= TRUE by default):
 #       Print warning when enable warning when some estimated proportions are smaller than 0 or greater than 1.
 #       Significant departure is an indication of the violation of no design effect.
-# Outputs:
+# Outputs: A list containing estimates for
 # (1) the identified proportions of different types of respondents
 # (2) the maximal liar ratio
 # (3) the maximal proportions of liars with k control items answered affirmatively, k = 0, 1, ..., J
